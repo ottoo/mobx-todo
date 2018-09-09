@@ -1,0 +1,27 @@
+:global(html) {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  color: #4a4a4a;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:global(body) {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+:global(#__next) {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
